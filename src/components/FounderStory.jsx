@@ -45,7 +45,7 @@ const FounderStory = () => {
     <div
       className="absolute inset-0 rounded-[24px]"
       style={{
-        padding: "2px", // Border thickness
+        padding: "2px", 
         background: "linear-gradient(135deg, #F8EEA4 0%, #E6C85A 50%, #C7A008 100%)",
         WebkitMask: "linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)",
         WebkitMaskComposite: "xor",

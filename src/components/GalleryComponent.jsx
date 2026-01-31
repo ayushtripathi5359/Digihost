@@ -100,18 +100,16 @@ const GalleryComponent = () => {
                 className={`absolute ${card.offset} ${card.topOffset} ${card.zIndex}`}
                 style={{ width: "300px" }}
               >
-                {/* Image-based Logo Bubble */}
                 <div
                   className={`absolute -top-30  w-24 h-24 rounded-full bg-white shadow-lg flex items-center justify-center border border-black/5 overflow-hidden z-50`}
                 >
                   <img 
                     src={card.logo} 
                     alt="brand logo" 
-                    className="w-full h-full object-contain p-4" // p-4 ensures the logo doesn't touch the circle edges
+                    className="w-full h-full object-contain p-4"
                   />
                 </div>
 
-                {/* Main Image Card */}
                 <div className="w-full rounded-xl overflow-hidden shadow-xl bg-white relative hover:shadow-2xl transition-shadow duration-300">
                   <img
                     src={card.img}
@@ -127,7 +125,6 @@ const GalleryComponent = () => {
         </div>
       </div>
 
-      {/* Lower Text Section */}
       <div className="mt-20 pl-12 space-y-24">
         <h2 className="text-3xl font-medium leading-tight">
           Every brand, initiative, experiment <br />

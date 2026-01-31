@@ -6,7 +6,6 @@ const BrandList = () => {
       name: "Dr. Gaikwad",
       description: "The Smile Architect built beyond dentistry.",
       image: "src/assets/bg1.jpg",
-      // Specifically setting a shorter height for the first item
       heightClass: "h-32 md:h-40", 
     },
     {
@@ -40,7 +39,7 @@ const BrandList = () => {
                 </p>
               </div>
 
-              {/* Banner Image - Variable Height */}
+              {/* Banner Image */}
               <div className={`w-full md:w-[70%] overflow-hidden rounded-xl shadow-sm ${brand.heightClass}`}>
                 <img 
                   src={brand.image} 

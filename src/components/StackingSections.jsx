@@ -52,7 +52,6 @@ const StackingSections = () => {
         </div>
       ))}
 
-      {/* ================= THIRD SECTION ================= */}
       <div className="sticky top-0 bg-[#111111] text-white min-h-screen flex flex-col">
 
         {/* HEADER */}
@@ -87,10 +86,8 @@ const StackingSections = () => {
             </p>
           </div>
 
-          {/* IMAGES — ALL 3 VISIBLE ON MOBILE */}
           <div className="flex flex-wrap md:flex-nowrap gap-4 md:gap-6 items-end justify-center md:justify-end mt-12">
 
-            {/* IMAGE 1 */}
             <div className="relative overflow-hidden shadow-2xl transition-all duration-300 hover:-translate-y-4 w-[30%] md:w-[210px] h-[200px] md:h-[350px] rounded-sm bg-[#1A1A1A]">
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent z-10" />
               <img
@@ -100,7 +97,6 @@ const StackingSections = () => {
               />
             </div>
 
-            {/* IMAGE 2 */}
             <div className="relative overflow-hidden shadow-2xl transition-all duration-300 hover:-translate-y-4 w-[30%] md:w-[210px] h-[200px] md:h-[350px] rounded-sm bg-[#1A1A1A]">
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent z-10" />
               <img
@@ -110,7 +106,6 @@ const StackingSections = () => {
               />
             </div>
 
-            {/* IMAGE 3 */}
             <div className="relative overflow-hidden shadow-2xl transition-all duration-300 hover:-translate-y-4 w-[30%] md:w-[210px] h-[200px] md:h-[350px] rounded-sm bg-[#1A1A1A]">
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent z-10" />
               <img
