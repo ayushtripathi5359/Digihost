@@ -61,7 +61,7 @@ const JoinMovement = () => {
               </button>
             </form>
           </div>
-
+ 
         </div>
       </div>
     </section>
