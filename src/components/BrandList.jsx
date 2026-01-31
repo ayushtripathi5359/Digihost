@@ -5,19 +5,19 @@ const BrandList = () => {
     {
       name: "Dr. Gaikwad",
       description: "The Smile Architect built beyond dentistry.",
-      image: "src/assets/bg1.jpg",
+      image: "/assets/bg1.jpg",
       heightClass: "h-32 md:h-40", 
     },
     {
       name: "Anuved",
       description: "Tradition reborn for modern devotion.",
-      image: "src/assets/bg2.jpg",
+      image: "/assets/bg2.jpg",
       heightClass: "h-64 md:h-[350px]",
     },
     {
       name: "NAFSCOB",
       description: "Image engineering for credibility and legacy.",
-      image: "src/assets/bg3.jpg",
+      image: "/assets/bg3.jpg",
       heightClass: "h-64 md:h-[350px]",
     }
   ];

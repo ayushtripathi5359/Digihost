@@ -8,7 +8,7 @@ const JoinMovement = () => {
         <div className="flex justify-center ">
           <div className="relative rounded-2xl border border-[#C7A008]/80 overflow-hidden w-[320px] md:w-[380px]">
             <img
-              src="src/assets/portrait.jpg"
+              src="/assets/portrait.jpg"
               alt="Founder Portrait"
               className="w-full h-auto object-cover"
             />

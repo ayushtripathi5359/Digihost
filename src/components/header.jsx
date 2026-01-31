@@ -1,14 +1,14 @@
 import React from 'react';
 
 const BrandHero = () => {
-  const bgImage = "src/assets/bgimage.jpg";
+  const bgImage = "/assets/bgimage.jpg";
 
   return (
     <div className="fixedrelative w-full min-h-screen flex flex-col overflow-hidden selection:bg-black selection:text-white">
       
       <header className="w-full p-4 md:p-6 z-50">
         <nav className="flex items-center justify-between px-6 py-3 bg-[#0A261D] text-white rounded-full max-w-7xl mx-auto shadow-lg">
-          <img className='w-28' src="src\assets\logo.png" alt="" />
+          <img className='w-28' src="/assets/logo.png" alt="" />
           <div className="hidden md:flex gap-10 text-[10px] uppercase tracking-[0.2em] font-bold">
             <a href="#" className="hover:text-gray-300 transition-colors">Brand Soul</a>
             <a href="#" className="hover:text-gray-300 transition-colors">Building For Bharat</a>

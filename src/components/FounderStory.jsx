@@ -7,7 +7,7 @@ const FounderStory = () => {
       
       <div className="w-full h-[600px] md:h-auto">
         <img
-          src="src/assets/person.jpg"
+          src="/assets/person.jpg"
           alt="Alkesh Gupta"
           className="w-full h-full md:h-auto object-cover object-center block brightness-75"
         />

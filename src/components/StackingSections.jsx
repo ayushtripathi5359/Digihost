@@ -91,7 +91,7 @@ const StackingSections = () => {
             <div className="relative overflow-hidden shadow-2xl transition-all duration-300 hover:-translate-y-4 w-[30%] md:w-[210px] h-[200px] md:h-[350px] rounded-sm bg-[#1A1A1A]">
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent z-10" />
               <img
-                src="src/assets/img1.png"
+                src="/assets/img1.png"
                 alt="Portfolio"
                 className="w-full h-full object-cover"
               />
@@ -100,7 +100,7 @@ const StackingSections = () => {
             <div className="relative overflow-hidden shadow-2xl transition-all duration-300 hover:-translate-y-4 w-[30%] md:w-[210px] h-[200px] md:h-[350px] rounded-sm bg-[#1A1A1A]">
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent z-10" />
               <img
-                src="src/assets/img2.png"
+                src="/assets/img2.png"
                 alt="Portfolio"
                 className="w-full h-full object-cover"
               />
@@ -109,7 +109,7 @@ const StackingSections = () => {
             <div className="relative overflow-hidden shadow-2xl transition-all duration-300 hover:-translate-y-4 w-[30%] md:w-[210px] h-[200px] md:h-[350px] rounded-sm bg-[#1A1A1A]">
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent z-10" />
               <img
-                src="src/assets/img3.jpg"
+                src="/assets/img3.jpg"
                 alt="Portfolio"
                 className="w-full h-full object-cover"
               />
